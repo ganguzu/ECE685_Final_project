@@ -1,5 +1,5 @@
 # ECE685_Final_project
 
-## Abstractive Text Summarization Using TransformersTeam members: 
+## Abstractive Text Summarization Using Transformers
 
-## Godwin Anguzu, Haoliang Jiang
+## Team members: Godwin Anguzu, Haoliang Jiang
