@@ -35,6 +35,8 @@ Simply connect everything together, a relu layer plus the multi-head attention m
 ### Fundamental unit of transformer encoder and decoder, as well as encoders and decoders consisting of multiple layers.
 These are the encoders and decoders of this model. The encoder layer normalizes and then encodes the input and then the decoder layer uses the mult-head attention to generate the text output. Multiple layers of encoders and ecoders are arranged together in a parallel fashion.  
 ### Transformer
-Transformer is a class that constructs the transformer model with encoder, decoder, and a dense layer. The encoder, decoder are defined in the previous sections.
+Transformer is a class that constructs the transformer model with encoder, decoder, and a dense layer. The encoder, decoder are defined in the previous sections.  
+### Training
+The loss is defined to be a sparse categorical cross entropy loss. And the optimizer is defined to be Adam. This is an 8-head attention model with 4 layers to be trained over 5 epochs. The `train_step` function defines how the training steps with backward propagation. Once we finish the training, we can generate inference in the next section, where we are basically testing out some heuristic methods. Code can all be referred to this doc.
 
 
