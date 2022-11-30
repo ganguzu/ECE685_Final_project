@@ -28,4 +28,4 @@ Positional encoding can add the position information of an entity in a sequence 
 
 ### Multi-headed attention
 Multi-head Attention is a module for attention mechanisms which runs through an attention mechanism several times in parallel. The independent attention outputs are then concatenated and linearly transformed into the expected dimension. Intuitively, multiple attention heads allows for attending to parts of the sequence differently (e.g. longer-term dependencies versus shorter-term dependencies).  
-The multi-head attention class is an enhanced attention mechanism to run several heads of attention models in parallel. 
+The `MultiHeadAttention· class is an enhanced attention mechanism to run several heads of attention models in parallel. Qs, Ks, and Vs are initiated using Dense layers. Then they went throught the attention layer that we set up in `scaled_dot_product_attention`. The multihead of (Q, K, V) consists of all the heads created multiplied by the learnable weights W0, where $head_{i} = Attention(QW_{i}^Q, KW_{i}^{K}, VW_{i}V). The output is then concatenated and later goes through another dense layer to complete the journey. 
