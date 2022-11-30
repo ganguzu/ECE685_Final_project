@@ -1,6 +1,7 @@
 # ECE685 Final Project Readme
 
-## Abstractive Text Summarization Using TransformersTeam members: Godwin Anguzu, Haoliang Jiang
+## Abstractive Text Summarization Using Transformers  
+###Team members: Godwin Anguzu, Haoliang Jiang
 
 ### The readme file adds comments to our code. Please refer to the notebook for the corresponding section names
 ### Preprocessing
