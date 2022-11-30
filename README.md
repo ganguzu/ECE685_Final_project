@@ -3,7 +3,7 @@
 ## Abstractive Text Summarization Using Transformers  
 #### Team members: Godwin Anguzu, Haoliang Jiang
 
-### The readme file adds comments to our code. Please refer to the notebook for the corresponding section names
+#### The readme file adds comments to our code. Please refer to the notebook for the corresponding section names
 
 ### Preprocessing
 In the preprocessing section, we added spaces to the left and right of each word first.  
