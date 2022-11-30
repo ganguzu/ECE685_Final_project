@@ -1,9 +1,8 @@
 # ECE685_Final_project
 
-## Abstractive Text Summarization Using TransformersTeam members: 
+## Abstractive Text Summarization Using TransformersTeam members: Godwin Anguzu, Haoliang Jiang
 
-## Godwin Anguzu, Haoliang Jiang
-
+### The readme file adds comments to our code. Please refer to the notebook for the corresponding section names
 ### Preprocessing
 In the preprocessing section, we added spaces to the left and right of each word first.  
 Then we removed the special characters in the abstract as our first data cleaning step.  
