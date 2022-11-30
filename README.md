@@ -1,4 +1,4 @@
-# ECE685_Final_project
+# ECE685 Final Project Readme
 
 ## Abstractive Text Summarization Using TransformersTeam members: Godwin Anguzu, Haoliang Jiang
 
@@ -33,6 +33,8 @@ The `MultiHeadAttention` class is an enhanced attention mechanism to run several
 Simply connect everything together, a relu layer plus the multi-head attention model.  
 
 ### Fundamental unit of transformer encoder and decoder, as well as encoders and decoders consisting of multiple layers.
-These are the encoders and decoders of this model. 
+These are the encoders and decoders of this model. The encoder layer normalizes and then encodes the input and then the decoder layer uses the mult-head attention to generate the text output. Multiple layers of encoders and ecoders are arranged together in a parallel fashion.  
+### Transformer
+Transformer is a class that constructs the transformer model with encoder, decoder, and a dense layer. The encoder, decoder are defined in the previous sections.
 
 
